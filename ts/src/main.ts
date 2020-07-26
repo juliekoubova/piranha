@@ -1,4 +1,4 @@
 
-export const returnTrue = () => {
-    return false;
+export const clean = (filename: string) => {
+    return '';
 }
