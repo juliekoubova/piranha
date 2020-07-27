@@ -1,6 +1,8 @@
-import ts from 'typescript';
+import * as ts from 'typescript';
 import * as fs from 'fs';
 import * as path from 'path';
+
+
 
 export function getAST(code: string) {
   return ts.createSourceFile(

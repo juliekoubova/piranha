@@ -1,4 +1,4 @@
-import { clean } from '../src/main';
+import { clean } from 'piranha-ts';
 import * as fs from 'fs';
 import * as path from 'path';
 

@@ -1,6 +1,7 @@
-// @ts-nocheck
+import { Experimentation, ALWAYS_TRUE } from '../experimentation'
+
 export function conditional_contains_stale_flag() {
-  if (experimentation.isToggleEnabled(TestExperimentName.STALE_FLAG)) {
+  if (Experimentation.isToggleEnabled(ALWAYS_TRUE)) {
     console.log("Hello World");
   }
 }
